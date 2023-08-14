@@ -5,7 +5,7 @@ const store = createStore({
     state() {
         return {
             item: {},
-            transacao: {
+            processo: {
                 mensagem: "",
                 dados: "",
             },
@@ -16,6 +16,7 @@ const store = createStore({
 const app = createApp({});
 app.use(store);
 import HomeComponent from "./components/Home.vue";
-
+import SearchForm from "./components/SearchForm.vue"
 app.component("Home", HomeComponent);
+app.component("SearchForm", SearchForm);
 app.mount("#app");
