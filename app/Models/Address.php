@@ -10,9 +10,9 @@ class Address extends Model
         'zipcode',
         'ddd',
         'street',
-        'neighborhood',
         'city',
-        'state'
+        'state',
+        'neighborhood',
     ];
 
       public static $rules = [
@@ -20,6 +20,8 @@ class Address extends Model
         'ddd'=>'required|min:2|max:2',
         'state' => 'required|min:2|max:2',
         'city' => 'required',
+        'neighborhood' => 'nullable',
+        'street' => 'nullable',
     ];
 
     public static $messages = [
