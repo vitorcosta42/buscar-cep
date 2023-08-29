@@ -46,7 +46,7 @@
 <h3>3. Inicie os containers Docker usando Laravel Sail</h3>
 <pre>
   <code>
-    ./vendor/bin/sail up 
+    ./vendor/bin/sail up -d
   </code>
 </pre>
 <h3>4. Faça as migrações</h3>
@@ -55,14 +55,13 @@
     ./vendor/bin/sail artisan migrate    
   </code>
 </pre>
-<h3>5. Inicie sua aplicação</h3>
+<h3>5. Inicie o servidor Vue da aplicação </h3>
 <pre>
   <code>
     npm run dev   
   </code>
 </pre>
-<h6>Após realizar esta sequência de passos a aplicação já estará pronta para ser utilizada, se seguiu o .env de exemplo à risca, ela poderá ser acessada em <a href="http://localhost:8000/" target="_blank" >http://localhost:8000/</a> </h6>
-
+<h6>Após realizar esta sequência de passos a aplicação já estará pronta para ser utilizada, se seguiu o .env de exemplo à risca, ela poderá ser acessada em <a href="http://localhost:8000/" >http://localhost:8000/</a> </h6>
 <h2>Créditos</h2>
 <table>
   <tr>
