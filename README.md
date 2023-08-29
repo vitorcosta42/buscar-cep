@@ -1,4 +1,4 @@
-<h1><a href="https://github.com/vitorcosta42/app_locadora_carros/tree/master">Consulta de CEP - Vitor Costa </a></h1>
+<h1><a href="https://github.com/vitorcosta42/buscar-cep">Consulta de CEP - Vitor Costa </a></h1>
 
 <div style="display: inline_block">
    <img src="https://img.shields.io/badge/PHP-darkgreen"/>
@@ -12,7 +12,7 @@
 
 <h2>Descrição</h2>
 <p>
-  Projeto Full-Stack utilizando Vue.js e Bootstrap para o Front-end, e PHP, Laravel e MySQL para o back-end. Temos autenticação, validação, criação, edição, listagem e remoção de carros, locações, clientes, modelos e marcas de carros! Um projeto muito completo e com várias features que mostram um pouco do meu lado full-stack, espero que gostem.
+  Projeto Full-Stack utilizando Vue.js e Bootstrap para o Front-end, e PHP, Laravel, Docker e MySQL para o back-end. Além disso, temos o consumo da API do ViaCEP para a busca de dados, de forma que o registro de endereços se torne mais dinâmico para o usuário. Temos validação, criação, edição, listagem e remoção de endereços, em um excelente projeto de aprendizado do consumo de API's no back-end e também do uso da containerização do Docker para deixar a criação e a utilização dos projetos muito mais fácil e rápida. 
 </p>
 
 <h2>Como utilizar</h2>
