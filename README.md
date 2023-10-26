@@ -12,7 +12,7 @@
 
 <h2>Descrição</h2>
 <p>
-  Projeto Full-Stack utilizando Vue.js e Bootstrap para o Front-end, e PHP, Laravel, Docker e MySQL para o back-end. Além disso, temos o consumo da API do ViaCEP para a busca de dados, de forma que o registro de endereços se torne mais dinâmico para o usuário. Temos validação, criação, edição, listagem e remoção de endereços, em um excelente projeto de aprendizado do consumo de API's no back-end e também do uso da containerização do Docker para deixar a criação e a utilização dos projetos muito mais fácil e rápida. 
+  Projeto Full-Stack utilizando Vue.js e Bootstrap para o Front-end, e PHP, Laravel, Docker e MySQL para o back-end. Além disso, temos o consumo da API do ViaCEP para a busca de dados, de forma que o registro de endereços se torne mais dinâmico para o usuário. Temos validação, criação, edição, listagem e remoção de endereços, em um excelente projeto de aprendizado do consumo de API's no back-end e também do uso da containerização do Docker para deixar a criação e a utilização dos projetos muito mais fácil e rápida.
 </p>
 
 <h2>Como utilizar</h2>
@@ -44,6 +44,7 @@
 
 
 <h3>3. Inicie os containers Docker usando Laravel Sail</h3>
+<h4> <a href="https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository">Lembre-se de ter o Docker instalado na sua máquina!</a></h4>
 <pre>
   <code>
     ./vendor/bin/sail up -d
